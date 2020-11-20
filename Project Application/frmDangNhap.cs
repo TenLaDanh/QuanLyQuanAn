@@ -20,25 +20,11 @@ namespace Project_Application
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            string taiKhoan = "admin";
-            string matKhau = "123";
-            if(txtTaiKhoan.Text == taiKhoan && txtMatKhau.Text == matKhau)
-            {
                 this.Hide();
                 frmAdmin f = new frmAdmin();
                 f.Text = "Admin";
                 f.ShowDialog();
                 this.Close();   
-            }
-            else
-            {
-                this.Hide();
-                frmNhanVien f = new frmNhanVien();
-                f.Text = "Nhân Viên";
-                
-                f.ShowDialog();
-                this.Close();
-            }
         }
 
         private void txtTaiKhoan_Leave(object sender, EventArgs e)
