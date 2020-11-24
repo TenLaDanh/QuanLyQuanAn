@@ -17,7 +17,7 @@ namespace Project_Application
         {
             InitializeComponent();
         }
-
+        //viet events cho button dang nhap
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
                 this.Hide();
