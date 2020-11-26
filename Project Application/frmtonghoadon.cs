@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmAdmin : Form
+    public partial class frmtonghoadon : Form
     {
-        public frmAdmin()
+        public frmtonghoadon()
         {
             InitializeComponent();
-        }
-
-        private void frmAdmin_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

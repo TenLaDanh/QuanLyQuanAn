@@ -16,6 +16,10 @@ namespace Project_Application
         {
             InitializeComponent();
         }
-        
+
+        private void frmChonMon_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

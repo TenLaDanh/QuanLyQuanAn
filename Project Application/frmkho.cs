@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmAdmin : Form
+    public partial class frmkho : Form
     {
-        public frmAdmin()
+        public frmkho()
         {
             InitializeComponent();
         }
 
-        private void frmAdmin_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

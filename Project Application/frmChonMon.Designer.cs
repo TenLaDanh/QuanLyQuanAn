@@ -45,41 +45,46 @@
             // cboMonAn
             // 
             this.cboMonAn.FormattingEnabled = true;
-            this.cboMonAn.Location = new System.Drawing.Point(6, 19);
+            this.cboMonAn.Location = new System.Drawing.Point(8, 23);
+            this.cboMonAn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboMonAn.Name = "cboMonAn";
-            this.cboMonAn.Size = new System.Drawing.Size(192, 21);
+            this.cboMonAn.Size = new System.Drawing.Size(255, 24);
             this.cboMonAn.TabIndex = 0;
             // 
             // numberSoLuong
             // 
-            this.numberSoLuong.Location = new System.Drawing.Point(216, 20);
+            this.numberSoLuong.Location = new System.Drawing.Point(288, 25);
+            this.numberSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numberSoLuong.Name = "numberSoLuong";
-            this.numberSoLuong.Size = new System.Drawing.Size(57, 20);
+            this.numberSoLuong.Size = new System.Drawing.Size(76, 22);
             this.numberSoLuong.TabIndex = 1;
             // 
             // btnThemMon
             // 
-            this.btnThemMon.Location = new System.Drawing.Point(304, 17);
+            this.btnThemMon.Location = new System.Drawing.Point(405, 21);
+            this.btnThemMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThemMon.Name = "btnThemMon";
-            this.btnThemMon.Size = new System.Drawing.Size(75, 23);
+            this.btnThemMon.Size = new System.Drawing.Size(100, 28);
             this.btnThemMon.TabIndex = 2;
             this.btnThemMon.Text = "Thêm Món";
             this.btnThemMon.UseVisualStyleBackColor = true;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(237, 343);
+            this.btnOK.Location = new System.Drawing.Point(316, 422);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.Size = new System.Drawing.Size(100, 28);
             this.btnOK.TabIndex = 4;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(331, 343);
+            this.btnThoat.Location = new System.Drawing.Point(441, 422);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
+            this.btnThoat.Size = new System.Drawing.Size(100, 28);
             this.btnThoat.TabIndex = 5;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -91,9 +96,10 @@
             this.columnHeader2,
             this.columnHeader3});
             this.lsvDSMonAn.GridLines = true;
-            this.lsvDSMonAn.Location = new System.Drawing.Point(12, 120);
+            this.lsvDSMonAn.Location = new System.Drawing.Point(16, 148);
+            this.lsvDSMonAn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lsvDSMonAn.Name = "lsvDSMonAn";
-            this.lsvDSMonAn.Size = new System.Drawing.Size(396, 202);
+            this.lsvDSMonAn.Size = new System.Drawing.Size(527, 248);
             this.lsvDSMonAn.TabIndex = 3;
             this.lsvDSMonAn.UseCompatibleStateImageBehavior = false;
             this.lsvDSMonAn.View = System.Windows.Forms.View.Details;
@@ -118,24 +124,28 @@
             this.groupBox1.Controls.Add(this.cboMonAn);
             this.groupBox1.Controls.Add(this.numberSoLuong);
             this.groupBox1.Controls.Add(this.btnThemMon);
-            this.groupBox1.Location = new System.Drawing.Point(12, 35);
+            this.groupBox1.Location = new System.Drawing.Point(16, 43);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(394, 51);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(525, 63);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chọn Món";
             // 
             // frmChonMon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 377);
+            this.ClientSize = new System.Drawing.Size(560, 464);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lsvDSMonAn);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnOK);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmChonMon";
             this.Text = "frmChonMon";
+            this.Load += new System.EventHandler(this.frmChonMon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numberSoLuong)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
