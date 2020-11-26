@@ -41,8 +41,8 @@
             this.txttongtien = new System.Windows.Forms.TextBox();
             this.txttienthua = new System.Windows.Forms.TextBox();
             this.txttienkhach = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtsoban = new System.Windows.Forms.TextBox();
+            this.txtngay = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -176,19 +176,19 @@
             this.txttienkhach.Size = new System.Drawing.Size(100, 22);
             this.txttienkhach.TabIndex = 1;
             // 
-            // textBox4
+            // txtsoban
             // 
-            this.textBox4.Location = new System.Drawing.Point(78, 143);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 1;
+            this.txtsoban.Location = new System.Drawing.Point(112, 145);
+            this.txtsoban.Name = "txtsoban";
+            this.txtsoban.Size = new System.Drawing.Size(100, 22);
+            this.txtsoban.TabIndex = 1;
             // 
-            // textBox5
+            // txtngay
             // 
-            this.textBox5.Location = new System.Drawing.Point(321, 145);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 1;
+            this.txtngay.Location = new System.Drawing.Point(321, 145);
+            this.txtngay.Name = "txtngay";
+            this.txtngay.Size = new System.Drawing.Size(100, 22);
+            this.txtngay.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -237,8 +237,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txttienkhach);
             this.Controls.Add(this.txttienthua);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtngay);
+            this.Controls.Add(this.txtsoban);
             this.Controls.Add(this.txttongtien);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -274,8 +274,8 @@
         private System.Windows.Forms.TextBox txttongtien;
         private System.Windows.Forms.TextBox txttienthua;
         private System.Windows.Forms.TextBox txttienkhach;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtsoban;
+        private System.Windows.Forms.TextBox txtngay;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

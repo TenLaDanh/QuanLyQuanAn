@@ -84,7 +84,7 @@
             this.btntongtuan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btntongtuan.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntongtuan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btntongtuan.Location = new System.Drawing.Point(149, 31);
+            this.btntongtuan.Location = new System.Drawing.Point(150, 31);
             this.btntongtuan.Name = "btntongtuan";
             this.btntongtuan.Size = new System.Drawing.Size(96, 32);
             this.btntongtuan.TabIndex = 0;
