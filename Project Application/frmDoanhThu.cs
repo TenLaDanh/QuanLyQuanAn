@@ -10,16 +10,26 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmHoaDon : Form
+    public partial class frmDoanhThu : Form
     {
-        public frmHoaDon()
+        public frmDoanhThu()
         {
             InitializeComponent();
         }
 
-        private void frmhoadon_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            //
+
+        }
+
+        private void frmtonghoadon_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

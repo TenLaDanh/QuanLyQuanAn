@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmkho : Form
+    public partial class frmKho_Admin : Form
     {
-        public frmkho()
+        public frmKho_Admin()
         {
             InitializeComponent();
         }
 
-        
+        private void btnthemmon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

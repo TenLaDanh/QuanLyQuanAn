@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmtonghoadon : Form
+    public partial class DatBan : Form
     {
-        public frmtonghoadon()
+        public DatBan()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

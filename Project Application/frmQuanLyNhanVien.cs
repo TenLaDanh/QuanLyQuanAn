@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmHoaDon : Form
+    public partial class frmQuanLyNhanVien : Form
     {
-        public frmHoaDon()
+        public frmQuanLyNhanVien()
         {
             InitializeComponent();
-        }
-
-        private void frmhoadon_Load(object sender, EventArgs e)
-        {
-            //
         }
     }
 }
