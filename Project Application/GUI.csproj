@@ -47,23 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatBan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DatBan.Designer.cs">
-      <DependentUpon>DatBan.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAdmin.Designer.cs">
       <DependentUpon>frmAdmin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmChonMon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmChonMon.Designer.cs">
-      <DependentUpon>frmChonMon.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
@@ -71,106 +59,22 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHoaDon.Designer.cs">
-      <DependentUpon>frmHoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmKhoHang_NhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmKhoHang_NhanVien.Designer.cs">
-      <DependentUpon>frmKhoHang_NhanVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmKho_Admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmKho_Admin.Designer.cs">
-      <DependentUpon>frmKho_Admin.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNhanVien.Designer.cs">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDoanhThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDoanhThu.Designer.cs">
-      <DependentUpon>frmDoanhThu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmQL_BaoCaocs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQL_BaoCaocs.Designer.cs">
-      <DependentUpon>frmQL_BaoCaocs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmQL_HoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQL_HoaDon.Designer.cs">
-      <DependentUpon>frmQL_HoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmQuanLyNhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQuanLyNhanVien.Designer.cs">
-      <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmVietBaoCao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmVietBaoCao.Designer.cs">
-      <DependentUpon>frmVietBaoCao.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThongTinNhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThongTinNhanVien.Designer.cs">
-      <DependentUpon>ThongTinNhanVien.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="DatBan.resx">
-      <DependentUpon>DatBan.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmAdmin.resx">
       <DependentUpon>frmAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmChonMon.resx">
-      <DependentUpon>frmChonMon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHoaDon.resx">
-      <DependentUpon>frmHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmKhoHang_NhanVien.resx">
-      <DependentUpon>frmKhoHang_NhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmKho_Admin.resx">
-      <DependentUpon>frmKho_Admin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDoanhThu.resx">
-      <DependentUpon>frmDoanhThu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmQL_BaoCaocs.resx">
-      <DependentUpon>frmQL_BaoCaocs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmQL_HoaDon.resx">
-      <DependentUpon>frmQL_HoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmQuanLyNhanVien.resx">
-      <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmVietBaoCao.resx">
-      <DependentUpon>frmVietBaoCao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -181,9 +85,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ThongTinNhanVien.resx">
-      <DependentUpon>ThongTinNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
