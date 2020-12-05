@@ -6,18 +6,18 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Windows.Forms; 
 
 namespace Project_Application
 {
-    public partial class frmAdmin : Form
+    public partial class frmChonMon : Form
     {
-        public frmAdmin()
+        public frmChonMon()
         {
             InitializeComponent();
         }
 
-        private void frmAdmin_Load(object sender, EventArgs e)
+        private void frmChonMon_Load(object sender, EventArgs e)
         {
 
         }

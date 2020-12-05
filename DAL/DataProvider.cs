@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_Application.DAL
+namespace DAL
 {
     public class DataProvider
     {

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmAdmin : Form
+    public partial class DatBan : Form
     {
-        public frmAdmin()
+        public DatBan()
         {
             InitializeComponent();
         }
 
-        private void frmAdmin_Load(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

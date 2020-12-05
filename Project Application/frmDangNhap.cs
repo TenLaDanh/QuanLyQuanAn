@@ -12,7 +12,7 @@ namespace Project_Application
 {
     public partial class frmDangNhap : Form
     {
-        string a = "tenladanh";
+        
         public frmDangNhap()
         {
             InitializeComponent();
@@ -21,8 +21,8 @@ namespace Project_Application
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
                 this.Hide();
-                frmNhanVien f = new frmNhanVien();
-                f.Text = "Nhan Vien";
+                frmAdmin f = new frmAdmin();
+                f.Text = "Admin";
                 f.ShowDialog();
                 this.Close();   
         }

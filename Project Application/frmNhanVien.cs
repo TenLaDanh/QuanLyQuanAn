@@ -20,7 +20,8 @@ namespace Project_Application
 
         private void btnBan1_Click(object sender, EventArgs e)
         {
-           
+            frmChonMon f = new frmChonMon();
+            f.ShowDialog();
         }
 
         private void frmNhanVien_Load(object sender, EventArgs e)
@@ -38,14 +39,14 @@ namespace Project_Application
         }
         private static void button_Click(Object sender,EventArgs e)
         {
-            
+            frmChonMon f = new frmChonMon();
+            f.ShowDialog();
         }
 
         private void btnThemMon_Click(object sender, EventArgs e)
         {
-
+            frmChonMon f = new frmChonMon();
+            f.ShowDialog();
         }
-
-       
     }
 }

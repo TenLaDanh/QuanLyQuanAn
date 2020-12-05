@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Project_Application
 {
-    public partial class frmAdmin : Form
+    public partial class frmKho_Admin : Form
     {
-        public frmAdmin()
+        public frmKho_Admin()
         {
             InitializeComponent();
         }
 
-        private void frmAdmin_Load(object sender, EventArgs e)
+        private void btnthemmon_Click(object sender, EventArgs e)
         {
 
         }
