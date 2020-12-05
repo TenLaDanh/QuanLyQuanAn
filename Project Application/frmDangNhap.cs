@@ -21,8 +21,8 @@ namespace Project_Application
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
                 this.Hide();
-                frmAdmin f = new frmAdmin();
-                f.Text = "Admin";
+                frmNhanVien f = new frmNhanVien();
+                f.Text = "Nhan Vien";
                 f.ShowDialog();
                 this.Close();   
         }

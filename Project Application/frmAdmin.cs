@@ -19,7 +19,7 @@ namespace Project_Application
 
         private void frmAdmin_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
