@@ -18,6 +18,7 @@ CREATE TABLE TaiKhoan
 	taiKhoan nvarchar(50), 
 	matKhau nvarchar(30),
 	tenHienThi nvarchar(50),
+	loaiTK int,--0: nhân viển 1: admin
 	maNV int
 	foreign key(maNV) references NhanVien(iD)
 )
@@ -85,9 +86,9 @@ insert into NhanVien(hoTen,gioiTinh,diaChi,SDT)
 values  (N'Lê Nguyễn Đức Danh',N'Nam',N'2B Linh Trung','0976184283'),
 		(N'Nguyễn Hoài Thương',N'Nữ',N'Nha Trang','0357471614')
 Go
-INSERT INTO TaiKhoan (taiKhoan,matKhau,tenHienThi,maNV)
-VALUES ('tenladanh','14122001','TenLaDanh',1),
-		('hoaithuong','30112001',N'Nguyễn Hoài Thương',2)
+INSERT INTO TaiKhoan (taiKhoan,matKhau,tenHienThi,loaiTK,maNV)
+VALUES ('tenladanh','14122001','TenLaDanh',1,1),
+		('hoaithuong','30112001',N'Nguyễn Hoài Thương',0,2)
 GO
 insert into BaoCao(iDTaiKhoan,noiDung)
 values (1,N'hihi'),(2,N'hihi')
@@ -403,7 +404,7 @@ as
 		values (@trangThai)
 	end;
 go
-create proc sp_SuaBaoCao
+create proc sp_SuaBanAn
 @iD int,@trangThai int
 as
 	begin 
