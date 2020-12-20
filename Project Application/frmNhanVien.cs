@@ -96,11 +96,7 @@ namespace Project_Application
             object[] listPara = new object[] {cboChonMon.Text ,nudSoLuong.Value };
             if(lsvHoaDon.Items.Count==0)
             {
-                //them hoa don
-                    
-                //them info hoa don
-                int tableID = (int)lsvHoaDon.Tag;
-                //update trang thai ban 
+             
             }
             else
             {
