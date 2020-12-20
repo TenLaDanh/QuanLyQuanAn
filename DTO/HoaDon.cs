@@ -9,14 +9,14 @@ namespace DTO
 {
     public class HoaDon
     {
-        private int ID;
-        private string ngayXuatHD;
-
-        public int ID1
+        private int iD;
+        private DateTime ngayXuatHD;
+        private string trangThai;
+        public int ID
         {
             get
             {
-                return ID;
+                return iD;
             }
 
             set
@@ -25,7 +25,7 @@ namespace DTO
             }
         }
 
-        public string NgayXuatHD
+        public DateTime NgayXuatHD
         {
             get
             {
@@ -38,11 +38,31 @@ namespace DTO
             }
         }
 
+        public string TrangThai
+        {
+            get
+            {
+                return trangThai;
+            }
+
+            set
+            {
+                trangThai = value;
+            }
+        }
+
         public HoaDon() { }
         public HoaDon(DataRow row)
         {
-            this.ID = (int)row["ID"];
-            this.ngayXuatHD = (string)row["ngayXuatHD "];
+            this.iD = (int)row["ID"];
+            this.ngayXuatHD = (DateTime)row["ngayXuatHD "];
+            this.TrangThai = (string)row["noiDung"];
+        }
+        public HoaDon(int iD , DateTime ngayXuatHD,string trangThai)
+        {
+            this.iD = iD;
+            this.ngayXuatHD = ngayXuatHD;
+            this.TrangThai = trangThai;
         }
 
     }

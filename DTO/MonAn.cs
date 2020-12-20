@@ -58,5 +58,11 @@ namespace DTO
             this.donGia = (int)row["donGia"];
             this.tenMon = (string)row["tenMon"];
         }
+        public MonAn(int idMonAn,string tenMon, int donGia)
+        {
+            this.iDMonAn = idMonAn;
+            this.tenMon = tenMon;
+            this.donGia = donGia;
+        }
     }
 }

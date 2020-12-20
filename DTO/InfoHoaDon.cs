@@ -74,6 +74,13 @@ namespace DTO
             this.soLuong = (int)row["soLuong"];
             this.iDBan = (int)row["iDBan"];
         }
+        public InfoHoaDon(int idHD,int idMonAn,int soLuong,int idBan)
+        {
+            this.iDHoaDon = idHD;
+            this.iDMonAn = idMonAn;
+            this.soLuong = soLuong;
+            this.iDBan = idBan;
+        }
 
     }
 }

@@ -73,5 +73,12 @@ namespace DTO
             this.soLuong = (float)row["soLuong"];
             this.donVi = (string)row["donVi"];
         }
+        public NguyenLieu(int iD ,string tenNL,float soLuong,string donVi)
+        {
+            this.iD = iD;
+            this.tenNguyenLieu = tenNL;
+            this.soLuong = soLuong;
+            this.donVi = donVi;
+        }
     }
 }

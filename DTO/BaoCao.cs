@@ -11,6 +11,7 @@ namespace DTO
     {
         private int iD;
         private int iDTaiKhoan;
+        private string noiDung;
 
         public int ID
         {
@@ -38,11 +39,30 @@ namespace DTO
             }
         }
 
+        public string NoiDung
+        {
+            get
+            {
+                return noiDung;
+            }
+
+            set
+            {
+                noiDung = value;
+            }
+        }
+
         public BaoCao() { }
         public BaoCao(DataRow row)
         {
             this.iD = (int)row["iD"];
-            this.iDTaiKhoan = (int)row["iDTaiKhoan "];
+            this.iDTaiKhoan = (int)row["iDTaiKhoan"];
+        }
+        public BaoCao(int iD,int iDTaiKhoan,string noiDung)
+        {
+            this.iD = iD;
+            this.iDTaiKhoan = iDTaiKhoan;
+            this.noiDung = noiDung;
         }
     }
 }

@@ -41,8 +41,14 @@ namespace DTO
         public BanAn() { }
         public BanAn(DataRow row)
         {
-            this.iD = (int)row["iDBan"];
-            this.trangThai = (int)row["trangThai "];
+            this.iD = (int)row["iD"];
+            this.trangThai = (int)row["trangThai"];
         }
+        public BanAn(int iD ,int trangThai)
+        {
+            this.iD = iD;
+            this.trangThai = trangThai;
+        }
+
     }
 }

@@ -11,7 +11,7 @@ namespace DAL
     public class DataProvider
     {
         private static DataProvider instance;
-        private string connectSTR = "";
+        private string connectSTR = "Data Source=.;Initial Catalog=QL_QUANAN;Integrated Security=True";
 
         public static DataProvider Instance
         {
@@ -47,7 +47,7 @@ namespace DAL
                         }
                     }
                 }
-                SqlDataAdapter adapter = new SqlDataAdapter();
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 adapter.Fill(data);
                 connect.Close();
 

@@ -10,11 +10,10 @@ namespace DTO
     class TaiKhoan
     {
         private int iD;
-        private string sTaiKhoan;
+        private string tenTaiKhoan;
         private string matKhau;
         private string tenHienThi;
-        private string hoTen;
-        private string gioiTinh;
+        private int loaiTK;
 
         public int ID
         {
@@ -29,18 +28,7 @@ namespace DTO
             }
         }
 
-        public string STaiKhoan
-        {
-            get
-            {
-                return sTaiKhoan;
-            }
-
-            set
-            {
-                sTaiKhoan = value;
-            }
-        }
+       
 
         public string MatKhau
         {
@@ -68,39 +56,47 @@ namespace DTO
             }
         }
 
-        public string HoTen
+        public int LoaiTK
         {
             get
             {
-                return hoTen;
+                return loaiTK;
             }
 
             set
             {
-                hoTen = value;
+                loaiTK = value;
             }
         }
 
-        public string GioiTinh
+        public string TenTaiKhoan
         {
             get
             {
-                return gioiTinh;
+                return tenTaiKhoan;
             }
 
             set
             {
-                gioiTinh = value;
+                tenTaiKhoan = value;
             }
         }
+
         public TaiKhoan(DataRow row)
         {
             this.iD = (int)row["iD"];
-            this.sTaiKhoan = (string)row["taiKhoan"];
+            this.tenTaiKhoan = (string)row["taiKhoan"];
             this.matKhau = (string)row["matKhau"];
             this.tenHienThi = (string)row["tenHienThi"];
-            this.hoTen = (string)row["hoTen"];
-            this.gioiTinh = (string)row["gioiTinh"];
+            this.loaiTK = (int)row["loaiTK"];
+        }
+        public TaiKhoan(int id,string tenTK,string matKhau,string tenHienThi,int loaiTK)
+        {
+            this.iD = id;
+            this.tenTaiKhoan = tenTK;
+            this.matKhau = matKhau;
+            this.tenHienThi = tenHienThi;
+            this.loaiTK = loaiTK;
         }
     }
 }

@@ -44,6 +44,7 @@
     <Compile Include="BaoCao.cs" />
     <Compile Include="HoaDon.cs" />
     <Compile Include="InfoHoaDon.cs" />
+    <Compile Include="MenuBill.cs" />
     <Compile Include="MonAn.cs" />
     <Compile Include="NguyenLieu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

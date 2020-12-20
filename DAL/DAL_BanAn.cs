@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DTO;
+using System.Data;
 
 namespace DAL
 {
-    class DAL_BanAn
+    public class DAL_BanAn
     {
         private static DAL_BanAn instance;
 
-        internal static DAL_BanAn Instance
+        public static DAL_BanAn Instance
         {
             get
             {
@@ -25,11 +26,12 @@ namespace DAL
         }
         private DAL_BanAn() { }
 
-        public List<BanAn> getTableList()
+        public DataTable getTableList()
         {
-            List<BanAn> listBanAn = new List<BanAn>();
-            
-            return listBanAn;
+            DataTable dtBanAn = new DataTable();
+            dtBanAn = DataProvider.Instance.ExecuteQuery("sp_DSBanAn");
+            return dtBanAn;
         }
+       
     }
 }
